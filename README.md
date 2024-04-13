@@ -2,7 +2,7 @@
 
 ## **Overview:**
 
-Single-cell RNA sequencing (scRNA-seq) has opened up new frontiers in genomics, allowing researchers to study gene expression at the individual cell level. When it comes to analyzing scRNA-seq data, two powerful tools, STAR and CellRanger, often come to the forefront. In this article, we will delve into the differences between these two tools and provide a comprehensive guide on how to run them individually on a High-Performance Computing (HPC) cluster using SLURM. We'll also demonstrate how to create a unified SLURM script for both STAR and CellRanger, streamlining the analysis process for researchers.
+Single-cell RNA sequencing (scRNA-seq) has opened up new frontiers in genomics, allowing researchers to study gene expression at the individual cell level. When it comes to analyzing scRNA-seq data, two powerful tools, STAR and CellRanger, often come to the forefront. In this repo, we will delve into the differences between these two tools and provide a comprehensive guide on how to run them individually on a High-Performance Computing (HPC) cluster using SLURM. We'll also demonstrate how to create a unified SLURM script for both STAR and CellRanger, streamlining the analysis process for researchers.
 
 ## **Understanding STAR and CellRanger:**
 
@@ -76,48 +76,6 @@ In summary, both STAR and CellRanger perform read alignment and quantification, 
 
 ## **Conclusion:**
 
-In summary, both STAR and CellRanger offer powerful solutions for scRNA-seq data analysis, each with its unique strengths. STAR excels in read alignment, while CellRanger provides an end-to-end toolkit. Utilizing SLURM on an HPC cluster enhances the scalability and efficiency of your analysis. Additionally, creating a unified SLURM script simplifies the process for researchers, making scRNA-seq analysis accessible and efficient for the entire research community. **Happy analyzing!**
+In summary, both STAR and CellRanger offer powerful solutions for scRNA-seq data analysis, each with its unique strengths. STAR excels in read alignment, while CellRanger provides an end-to-end toolkit. Utilizing SLURM on an HPC cluster enhances the scalability and efficiency of your analysis. Additionally, creating a unified SLURM script simplifies the process for researchers, making scRNA-seq analysis accessible and efficient for the entire research community. 
 
-## Reference:
 
-**STAR:**
-
-<https://broadinstitute.github.io/2019_scWorkshop/processing-scrnaseq-data.html#align-the-reads>
-
-[Single Cell RNA-Sequencing of Pluripotent States Unlocks Modular Transcriptional Variation - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S193459091500418X?via%3Dihub)
-
-<https://github.com/alexdobin/STAR>
-
-**CellRanger:**
-
-<https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/using/tutorial_fq>
-
-<https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/using/tutorial_ct>
-
-## Blog:
-
-<https://ssidmarine.wordpress.com/2023/09/27/exploring-scrna-seq-data-analysis-star-vs-cellranger-on-hpc-with-slurm/>
-
-## Access data:
-
-**STAR:**
-
-[E-MTAB-2600 \< ArrayExpress \< BioStudies \< EMBL-EBI](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-2600?accession=E-MTAB-2600)
-
-<https://ftp.ebi.ac.uk/biostudies/nfs/E-MTAB-/600/E-MTAB-2600/Files/E-MTAB-2600.idf.txt>
-
-[ENA Browser (ebi.ac.uk)](https://www.ebi.ac.uk/ena/browser/view/ERR1211176?dataType=RUN)
-
-<https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001635.20/>
-
-**CellRanger:**
-
-<https://cf.10xgenomics.com/supp/cell-exp/cellranger-tiny-bcl-1.2.0.tar.gz>
-
-<https://cf.10xgenomics.com/supp/cell-exp/cellranger-tiny-bcl-simple-1.2.0.csv>
-
-<https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2020-A.tar.gz>
-
-## Some output in the data folder:
-
-<https://github.com/chingyaousf/Exploring-scRNA-seq-Data-Analysis-STAR-vs.-CellRanger-on-HPC-with-SLURM/tree/main/data>
